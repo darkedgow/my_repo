@@ -7,6 +7,12 @@
 				var num = document.getElementById("n1");
 				num.value = Math.pow(num.value, 3);
 			}
+			
+			function cuarta() {
+				var num = document.getElementById("n1");
+				num.value = Math.pow(num.value, 4);
+			}
+			
 			function seno() {
 				var num = document.getElementById("n1");
 				num.value = Math.sin(num.value);
@@ -18,6 +24,7 @@
 		<h1>Calculadora de Edgar Armando Luna Hernández.</h1>
 		Número:	<input type="text" id="n1"><p>
 		<button onclick="cube()"> x^3 </button>
+		<button onclick="cuarta()"> x^4 </button>
 		<button onclick="seno()"> sen(x) </button>
 	</body>
 </html>
